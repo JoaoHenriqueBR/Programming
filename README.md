@@ -1,6 +1,6 @@
 # Programming
 
-## Welcome to my personal repository to learn programming
+### Welcome to my personal repository to learn programming
 
 Despite the appearence of diverse kinds of programming languages here, my focus now is on Python.
 
