@@ -1,8 +1,9 @@
-# Faça um programa que leia 5 números e informe o maior número.
+# Faça um programa que leia 5 números e informe a soma e a média dos números.
 
 from os import system # usado system('clear') para limpar a tela
 
-print('{} Maior número entre 5 {}'.format('='*10, '='*10)) # titulo
+print('{} Soma e média entre 5 números! {}'.format('='*10, '='*10)) # titulo
+
 c = 0
 while c == 0:
     c = 1
@@ -17,8 +18,8 @@ while c == 0:
         system('clear')
         print('Valor inválido! Tente novamente.\n')
 
-lista = [a, b, c, d, e]
+soma = a + b + c + d + e
 
 print('')
-print(f'O Maior número entre esses valores é {max(lista)}.')
-
+print(f'SOMA: {soma}')
+print(f'Média: {soma/5}')
