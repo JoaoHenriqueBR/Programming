@@ -21,7 +21,7 @@ else:
     def div(n): # função para descobrir os divisores
         for c in range(1, n // 2 + 1):  # gerador com os possíveis divisores do número (1 -> Metade inteira + 1)
             if n % c == 0: # Se é divisor
-                yield c # Aprendi sobre o yield recentemente: A cada momento em que o "yield" é executado até o fim do loop, ele retorna seu valor do c na função
+                yield c # Aprendi sobre o yield recentemente: A cada momento em que o "yield" é executado até o fim do loop, ele retorna o valor do c na função
         yield n # Qualquer número é divisivel por ele mesmo (o yield tbm retornará seu valor)
     
     print('Divisível por: {}'.format(list(div(n)))) # Mostra uma lista com os valores do "yield"
