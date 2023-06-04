@@ -17,3 +17,8 @@ while c == 0:
         system('clear')
         print('Valor inválido! Tente novamente.\n')
 
+lista = [a, b, c, d, e]
+
+print('')
+print(f'O Maior número entre esses valores é {max(lista)}.')
+
