@@ -2,6 +2,9 @@
 
 from os import system
 
+print('{} NÚMERO É PRIMO??! {}'.format('='*10, '='*10)) # titulo
+
+
 c = 1
 while c == 1: # loop em caso de erro
     c = 0
