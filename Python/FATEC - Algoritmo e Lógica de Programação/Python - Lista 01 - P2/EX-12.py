@@ -12,7 +12,6 @@ while n < 0: # loop em caso de erro
         n = int(input('Digite um número inteiro: '))
     except: # se erro
         system('clear')
-        n = -1
     if n > 0:
         break    
     print('Inválido! Precisa ser um número inteiro positivo. ')
