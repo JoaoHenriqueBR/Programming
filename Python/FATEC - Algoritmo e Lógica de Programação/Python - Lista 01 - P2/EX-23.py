@@ -38,7 +38,6 @@ for c in range(5):
             if acid/veic > maior:
                 maior = acid/veic
                 cod_maior = cod
-                veic_maior = veic
             if acid/veic < menor:
                 menor = acid / veic
                 cod_menor = cod
