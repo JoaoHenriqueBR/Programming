@@ -22,7 +22,7 @@ Considere que o cliente deve informar quando o pedido deve ser encerrado.
 
 from os import system
 
-c = 0
+c = -1
 total = 0
 
 cardapio = {100:'Cachorro Quente - R$ 1.20',
@@ -41,7 +41,7 @@ preco = {100:1.20,
 print('{} CARDÁPIO {}'.format('-'*90, '-'*90))            
 print(cardapio)
 
-while c >= 0:
+while c != 0:
     qtd = 0
     try:
         c = int(input('Informe o código (0 - Encerra o pedido): '))
@@ -49,7 +49,7 @@ while c >= 0:
         c = -1
     if c == 0:
         break
-    elif c < 100 and c > 105:
+    elif c < 100 or c > 105:
         system('clear')
         print('Código inválido! Tente novamente.')
     else:
