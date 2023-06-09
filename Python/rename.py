@@ -10,5 +10,5 @@ c = 0
 for f in os.listdir():
     c += 1
     file_name, file_ext = os.path.splitext(f)
-    new_name = '{} - EX-{}{}'.format(file_name, c, file_ext)
+    new_name = '{} - EX-{}{}'.format(file_name, c, file_ext) # Choose the new name
     os.rename(f, new_name)
