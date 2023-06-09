@@ -27,10 +27,8 @@ from os import system
 print('{} Lojas Tabajara {}'.format('='*10, '='*10))
 
 c = 1
-valor = 0
-total = 0
+valor = total = 0
 while c > 0:
-    c = 1
     try:
         valor = float(input(f'Produto {c}: R$ '))
     except:
@@ -50,5 +48,6 @@ while c > 0:
             c = int(input('Deseja continuar? Pressione 0 para finalizar: '))
         except:
             pass
+        valor = total = 0
 
 print('Caixa finalizado! Obrigado por usar o programa!')
