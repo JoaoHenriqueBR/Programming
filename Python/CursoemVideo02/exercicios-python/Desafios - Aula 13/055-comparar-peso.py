@@ -5,7 +5,7 @@ from math import inf
 maior = 0
 menor = inf
 for p in range(5):
-    peso = float(input('Digite seu peso (KG): '))
+    peso = float(input('Digite o peso(KG) da {}° pessoa: '.format(p+1)))
     if peso > maior:
         maior = peso
     if peso < menor:
