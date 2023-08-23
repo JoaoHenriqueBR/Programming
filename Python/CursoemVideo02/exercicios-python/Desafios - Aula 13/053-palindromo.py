@@ -3,18 +3,11 @@
 
 frase = str(input('Digite uma frase: ')).strip().lower().replace(' ', '')
 tam = len(frase)
-palindromo = 0
+inverso = frase[::-1]
 
-
-for c in range(tam):
-    if ('{}'.format(frase[c])) == ('{}'.format(frase[tam-(c+1)])):
-        palindromo = palindromo + 1
-
-if tam == palindromo:
-    print('É um palindromo! ')
+print('O inverso de {} é {}'.format(frase, inverso))
+if inverso == frase:
+    print('Portanto, é um palindromo! ')
 else:
-    print('NÃO é um palindromo! ')
-
-
-
+    print('Portanto, NÃO é um palindromo! ')
 
