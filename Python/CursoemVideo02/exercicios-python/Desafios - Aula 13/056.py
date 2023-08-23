@@ -3,22 +3,21 @@
 # - Qual é o nome do homem mais velho;
 # - Quantas mulheres tem menos de 20 anos.
 
-velho = jovem_mulher = velho_homem = total = 0
+velho = jovem_mulher = total = 0
 nome_velho = ''
 
-for p in range(4):
-    nome = input('Digite seu nome: ')
+for p in range(1, 5):
+    print('-----{}° PESSOA-----'.format(p))
+    nome = input('Digite seu nome: ').strip()
     idade = int(input('Sua idade: '))
-    sexo = input('Seu sexo (m ou f): ')
+    sexo = input('Seu sexo (m ou f): ').strip()
     total += idade
-    if idade > velho:
+    if idade > velho and sexo in 'mM':
         velho = idade
-        if sexo == 'm':
-            nome_velho = nome
-            velho_homem = idade
-    if idade < 20 and sexo == 'f':
+        nome_velho = nome
+    if idade < 20 and sexo in 'fF':
         jovem_mulher += 1
 
 print('Média de idade: {} anos'.format(total/4))
-print('Homem mais velho: {} - {} anos'.format(nome_velho, velho_homem))
+print('Homem mais velho: {} - {} anos'.format(nome_velho, velho))
 print('Mulheres com menos de 20 anos: {} mulheres'.format(jovem_mulher))
