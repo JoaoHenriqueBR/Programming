@@ -6,9 +6,9 @@ Despite the appearence of diverse kinds of programming languages here, my focus 
 
 As a programming environment, I use:
 
-- Linux Mint Cinnamon 21.1 Vera (Laptop); Nobara KDE 37(PC);
+- Linux Mint Cinnamon 21.1 Vera (Laptop); Nobara KDE 37(PC); Puppy Linux (Bookworm Pup64 10.1) (Pendrive);
 - Visual Studio Code for coding;
 - Vim for editing;
-- Brave, Librewolf and Edge as browsers.
+- Brave, Librewolf/Firefox and Edge as browsers.
 
 Feel free to see and copy any of this files for any porpuse that you like, but as it's used by me to practice programming only, only me can change it.
