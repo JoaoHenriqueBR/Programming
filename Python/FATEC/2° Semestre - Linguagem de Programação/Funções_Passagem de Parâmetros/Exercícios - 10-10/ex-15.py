@@ -1,12 +1,17 @@
 #  Crie uma função chamada calculaFibonacci que recebe um número inteiro positivo como parâmetro
 #  e retorna o número na sequência de Fibonacci correspondente à posição dada. 
 
-def calculaFibonacci(n):
-    if n <= 0:
-        return "O número deve ser maior que 0."
-    elif n == 1:
-        return 0
-    else:
-        return (n-1) + (n-2)
+def calculaFribonacci(n):
+    lista = [0, 1] 
+    cont = 0
+    x = 0
+    y = 1
+    while cont != n - 2:
+        f = x+y
+        x = y
+        y = f
+        lista.append(f)
+        cont +=1
+    return lista 
 
-print(calculaFibonacci(7))
+print(calculaFribonacci(n=int(input("Digite um número: "))))
