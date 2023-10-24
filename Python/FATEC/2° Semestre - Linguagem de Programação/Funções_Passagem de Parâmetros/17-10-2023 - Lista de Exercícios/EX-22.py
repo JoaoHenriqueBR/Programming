@@ -10,7 +10,8 @@ def inverteMatriz(matriz, dim):
         linha = []
         for y in range(0, dim):
             linha.append(int(input(f'Digite um valor para [{x}, {y}]: ')))
-        matriz.append(linha) 
+        matriz.append(linha)
+    matriz.reverse() 
     for i in range(0, dim):
         matriz[i].reverse()
     return matriz
