@@ -1,1 +1,6 @@
 /HTML/Exemplo de Terceiros
+/venv
+.replit
+poetry.lock
+pyproject.toml
+replit.nix
