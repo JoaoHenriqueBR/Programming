@@ -16,6 +16,8 @@ while r == 's':
     while r not in 'sn': # Impede o usuário de terminar o programa "sem querer".
         r = input('Deseja continuar? (s/n): ').lower().strip()
 
+print('')
+print('Você digitou {} números.'.format(c))
 print('Média: {}'.format(total/c))
 print('Maior: {}'.format(maior))
 print('Menor: {}'.format(menor))

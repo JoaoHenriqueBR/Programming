@@ -20,8 +20,9 @@ while r != 'n':
 [1] Soma;
 [2] Multiplicação;
 [3] Maior;
-[4] Novos números;
-[5] Sair do programa.
+[4] Novos números (Mudar os números);
+[5] Adicionar um número;
+[6] Sair do programa.
 ''')
 
     x = 0
@@ -40,9 +41,14 @@ while r != 'n':
             x = max(n)
             print(f'Maior: {x}')
         case 4:
+            a = int(input('Digite um número: '))
+            b = int(input('Digite outro: '))
+            n = [a, b]
+            print('Números alterados com sucesso!')
+        case 5:
             x = int(input('Digite o número: '))
             n.append(x)
-        case 5:
+        case 6:
             print('Obrigado por usar!')
             break
         case _:

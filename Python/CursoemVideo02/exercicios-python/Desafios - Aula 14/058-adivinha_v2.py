@@ -7,13 +7,24 @@ print('='*25)
 print('ADVINHE O NÚMERO (0 A 10!)')
 print('='*25)
 
-cpu = randint(0, 10)
-usuario = cpu + 1
+print('O computador pensou em um número...')
 
-while cpu != usuario:
+cpu = randint(0, 10)
+acertou = False
+palpites = 0
+
+
+while not acertou:
     usuario = int(input('Adivinhe o número: '))
+    palpites += 1
     if cpu == usuario:
-        print('\033[32mVOCÊ VENCEU!\033[m')
-        break
+        acertou = True
     else:
-        print('\nPuts! Parece que errou, tente novamente!')
+        print('\nPuts! Parece que errou, tente', end=' ')
+        if usuario < cpu:
+            print('um número maior!')
+        else:
+            print('um número menor!')
+
+print('\033[32mVOCÊ VENCEU!\033[m')
+print(f'Foram {palpites} tentativa(s), parabéns!')
