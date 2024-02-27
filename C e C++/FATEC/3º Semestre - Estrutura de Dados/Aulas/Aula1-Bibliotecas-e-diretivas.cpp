@@ -1,7 +1,7 @@
 #include "iostream" // comandos cin e cout
 #include "math.h" // Funções matemáticas
 #include "cstdlib"
-#include <stdio.h> // comado getchar, para um system("pause") no Linux
+#include <stdio.h> // getchar (Linux)
 using namespace std; // diretiva using
 
 int main()
@@ -21,6 +21,6 @@ int main()
     cout << base << " elevado a " << expoente << " é: ";
     cout << potencia << endl;
 
-    int c = getchar();
+    int c = getchar(); // No Windows: system("pause");
 
 return 0; }
