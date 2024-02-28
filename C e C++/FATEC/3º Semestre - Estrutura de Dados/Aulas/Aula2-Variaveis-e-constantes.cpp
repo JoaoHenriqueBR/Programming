@@ -50,4 +50,4 @@ int main()
 
   int c = getchar(); // No Windows: system("pause");
   
-}
+return 0; }
