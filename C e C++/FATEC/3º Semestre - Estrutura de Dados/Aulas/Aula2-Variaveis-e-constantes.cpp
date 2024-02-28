@@ -40,7 +40,7 @@ int main()
 
   mediaP = nota1 * pes1 + nota2 * pes2; // Calcular a Média Ponderada
 
-  if mediaP >= 6) // Se a Média Ponderada for maior que 6
+  if (mediaP >= 6) // Se a Média Ponderada for maior que 6
     cout << "\nAluno Aprovado!";
   else
     cout << "\nAluno Reprovado!";
