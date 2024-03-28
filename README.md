@@ -2,11 +2,11 @@
 
 ### Bem-vindo ao meu repositório pessoal para aprender programação
 
-Apesar de aparecer diversas linguagens de programação aqui, meu foco agora está sendo Python e C/C++.
+Apesar de aparecer diversas linguagens de programação aqui, meu foco agora está sendo Python e C++.
 
 Como um ambiente de programação, eu uso:
 
-- Linux Mint Cinnamon 21.3 Virginia (Laptop); Nobara KDE 39(PC); Puppy Linux (Bookworm Pup64 10.1) (Pendrive);
+- Linux Mint Cinnamon 21.3 Virginia (Laptop); Nobara KDE 39(PC);
 - Visual Studio Code e Replit para programar;
 - Vim para edição de texto;
 - Brave, Firefox e Edge como navegadores.
@@ -19,11 +19,11 @@ Sinta-se livre para ver e copiar qualquer um desses arquivos para o que quiser, 
 
 ### Welcome to my personal repository to learn programming
 
-Despite the appearence of diverse kinds of programming languages here, my focus now is on Python and C/C++.
+Despite the appearence of diverse kinds of programming languages here, my focus now is on Python and C++.
 
 As a programming environment, I use:
 
-- Linux Mint Cinnamon 21.3 Virginia (Laptop); Nobara KDE 39(PC); Puppy Linux (Bookworm Pup64 10.1) (Pendrive);
+- Linux Mint Cinnamon 21.3 Virginia (Laptop); Nobara KDE 39(PC);
 - Visual Studio Code and Replit for coding;
 - Vim for editing;
 - Brave, Firefox and Edge as browsers.
