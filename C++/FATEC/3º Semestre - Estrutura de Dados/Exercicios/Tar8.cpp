@@ -1,7 +1,7 @@
 #include "iostream"
 #include "cstdlib"
 using namespace std;
-#define t 2
+#define t 5
 
 /*
 Faça um programa com menu de três opções (1-ler linha, 2- mostrar e 3- sair), contendo um STRUCT para 
@@ -51,15 +51,17 @@ double getAumento(double *salario){ // Aumento de 10% sobre o salário digitado
 }
 
 void NovaLinhaStruct(){
-  double salario = ler_salario();
-  if ( linha == t-1 ) return;
-    linha ++;
-  cout << "\n--- PESSOA " << linha << " ---" << endl;
+  if (linha == t-1) return;
+  linha ++;
+  cout << "\n--- PESSOA " << linha + 1 << " ---" << endl;
   ptb->nome[linha] = ler_nome();
   ptb->sexo[linha] = ler_sexo();
   ptb->idade[linha] = ler_idade();
+  
+  double salario = ler_salario();
   ptb->salario[linha] = salario;
   ptb->salarioNovo[linha] = getAumento(&salario);
+  return;
 }
 
 void listarLinhasStruct(){
