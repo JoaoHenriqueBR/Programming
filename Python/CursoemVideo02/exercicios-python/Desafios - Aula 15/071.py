@@ -15,6 +15,8 @@ print('-'*30)
 print('Notas disponíveis: R$ 50, R$ 20, R$ 10 e R$ 1.')
 saque = int(input('Valor do saque: R$ '))
 
+cinquenta = vinte = dez = um = 0
+
 while saque > 0:
     if saque >= 50:
         cinquenta = saque // 50
