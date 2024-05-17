@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <h1>Cadastro de Clientes</h1>
+  <form method="get" action="cadastro.php">
+    <label for="fname">Nome:</label>
+    <input type="text" id="fname" name="fname">
+    <br>
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha" size="6">
+    <br>
+    <label for="E-Mail">E-Mail</label>
+    <input type="email" id="E-Mail" name="email" size="12">
+    <br>
+    <label for="data">Data de Nascimento:</label>
+    <input type="date" id="data" name="data">
+    <br>
+    <br>
+
+    <label for="cars">Seu carro:</label>
+
+    <select id="cars" name="carro">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+
+    <br>
+
+    <p>Linguagem favorita:</p>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label><br>
+    <input type="radio" id="java" name="fav_language" value="Java">
+    <label for="java">Java</label><br>
+    <input type="radio" id="C/C++" name="fav_language" value="C/C++">
+    <label for="C/C++">C/C++</label><br>
+    <input type="radio" id="python" name="fav_language" value="Python">
+    <label for="python">Python</label><br>
+
+    <p>Matérias que gosta:</p>
+    <input type="checkbox" id="mat1" name="mat1" value="IHC">
+    <label for="mat1">IHC</label><br>
+    <input type="checkbox" id="mat2" name="mat2" value="EDS">
+    <label for="mat2">EDS</label><br>
+
+    <br>
+
+    <input type="button" value="Incluir">&nbsp;&nbsp;
+    <input type="button" value="Alterar">&nbsp;&nbsp;
+    <input type="button" value="Consultar">&nbsp;&nbsp;
+    <input type="button" value="Exibir">&nbsp;&nbsp;
+
+  </form>
+</body>
+</html>
