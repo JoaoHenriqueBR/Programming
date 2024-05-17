@@ -1,0 +1,26 @@
+body {
+    background-color: #e9e509;
+  }
+  
+  h1 {
+    color: rgb(26, 219, 19);
+    text-align: center;
+    font-size: 45px;
+  }
+
+  h2 {
+    color:rgb(19, 66, 219);
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  p {
+    color:rgb(19, 66, 219);
+    text-align: center;
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  div {
+    text-align: center;
+  }
