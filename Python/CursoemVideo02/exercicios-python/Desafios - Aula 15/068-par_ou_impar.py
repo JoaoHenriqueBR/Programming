@@ -9,6 +9,7 @@ print('PAR OU ÍMPAR?')
 print('=-'*10)
 
 wins = 0
+
 while True:
     cpu = randint(0, 10)
     player = int(input('Digite um valor: '))
