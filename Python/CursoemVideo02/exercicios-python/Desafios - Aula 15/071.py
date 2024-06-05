@@ -14,26 +14,30 @@ print('-'*30)
 
 print('Notas disponíveis: R$ 50, R$ 20, R$ 10 e R$ 1.')
 saque = int(input('Valor do saque: R$ '))
+print('')
 
-cinquenta = vinte = dez = um = 0
+total = saque
 
-while saque > 0:
-    if saque >= 50:
-        cinquenta = saque // 50
-        saque -= 50*cinquenta
-    if saque >= 20:
-        vinte = saque // 20
-        saque -= 20*vinte
-    if saque >= 10:
-        dez = saque // 10
-        saque -= 10*dez
-    if saque >= 1:
-        um = saque
-        saque = 0
+ced = 50 # Variável ced, contendo o valor da cédula de maior valor
+totced = 0
+
+while True:
+    if total >= ced:
+        total -= ced
+        totced += 1
+    else:
+        if totced > 0:
+            print(f'Total de {totced} cédulas de R$ {ced}')
+        if ced == 50:
+            ced = 20
+        elif ced == 20:
+            ced = 10
+        elif ced == 10:
+            ced = 1
+        totced = 0
+        if total == 0:
+            break
 
 print('')
-print('Serão sacados: ')
-print(f'{cinquenta} notas de R$ 50.')
-print(f'{vinte} notas de R$ 20.')
-print(f'{dez} notas de R$ 10.')
-print(f'{um} moedas de R$ 1.')
+print('-'*35)
+print('Obrigado por usar nossos serviços, \nVolte sempre!')
