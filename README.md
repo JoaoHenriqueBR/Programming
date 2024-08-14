@@ -2,8 +2,6 @@
 
 ### Bem-vindo ao meu repositório pessoal para aprender programação
 
-Apesar de aparecer diversas linguagens de programação aqui, meu foco agora está sendo Python e C/C++.
-
 Como um ambiente de programação, eu uso:
 
 - Linux Mint Cinnamon 22 Wilma (Laptop); Nobara KDE 40(PC);
@@ -18,8 +16,6 @@ Sinta-se livre para ver e copiar qualquer um desses arquivos para o que quiser, 
 # Programming
 
 ### Welcome to my personal repository to learn programming
-
-Despite the appearence of diverse kinds of programming languages here, my focus now is on Python and C/C++.
 
 As a programming environment, I use:
 
