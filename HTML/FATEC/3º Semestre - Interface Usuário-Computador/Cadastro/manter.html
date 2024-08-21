@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- adicionar CSS Bootstrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- css personalizado -->
+    <link href="css/estilo.css" rel="stylesheet" media="screen">    
+    <title></title>
+</head>
+<body>
+    <h1>Usuários Cadastrados</h1>
+    <br>
+    <br>
+    <nav class="navbar">
+    <div class="container-fluid d-flex justify-content-center align-items-center">
+        <form class="d-flex" role="search" method="get" action="cadastro.php">
+            <input class="form-control me-2" type="search" placeholder="CPF ou Nome do Usuário" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Procurar</button>
+        </form>
+    </div>
+    </nav>
+    <!-- Exemplo de Resultado-->
+    <br>
+    <div>
+        <h3>Usuário Encontrado</h3>
+        <form method="post" action="cadastro.php">
+        <br>
+        <label for="fname">Nome</label>
+        <br>
+        <input type="text" id="fname" name="fname" value="João Henrique">
+        <br>
+        <br>
+        <label for="cpf">CPF</label>
+        <br>
+        <input type="text" id="cpf" name="cpf" value="123.456.789-10">
+        <br>
+        <br>
+        <div class="container">
+            <div class="card text-center bg-dark text-light">
+                <div class="card-header">
+                    <h4>Livros Emprestados</h4>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card text-light mb-3">
+                            <img src="./img/Harry-Potter-e-a-Pedra-Filosofal.jpg" class="card-img-top img-fluid" alt="Capa do livro Harry-Potter-e-a-Pedra-Filosofal">
+                            <div class="card-body bg-secondary">
+                                <h5 class="card-title">Harry Potter e a Pedra Filosofal</h5>
+                                <p class="card-text">O primeiro dos sete livros da série de fantasia Harry Potter, escrita por J. K. Rowling.<br>ISBN: 0-7475-3269-9</p>
+                                <button onclick="Harry()" class="btn btn-light" type="button">Mais detalhes</button>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card text-light mb-3">
+                            <img src="./img/sherlock-holmes-um-estudo-em-vermelho.jpg" class="card-img-top img-fluid" alt="Capa do livro sherlock-holmes-um-estudo-em-vermelho">
+                            <div class="card-body bg-secondary">
+                                <h5 class="card-title">Sherlock Holmes: Um Estudo em Vermelho</h5>
+                                <p class="card-text">A obra é famosa por ser o primeiro livro de Sherlock Holmes, detetive mundialmente conhecido na literatura policial.<br>ISBN: 85-06-2995-3</p>
+                                <button onclick="Sherlock()" class="btn btn-light" type="button">Mais detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br>
+        <input class="btn btn-success btn-lg" type="submit" value="Alterar">
+        <a class="btn btn-outline-light btn-lg" href="index.html">Voltar</a>
+    </form>
+    </div>
+
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        function Harry(){
+            $(alert("Data de Devolução: 26/10/2024\nGênero: Fantasia e Ficção\nAutor: J.K Rowling"))
+        }
+        function Sherlock(){
+            $(alert("Data de Devolução: 26/10/2024\nGênero: Romance policial\nAutor: Arthur Conan Doyle"))
+        }
+    </script>
+</body>
+</html>
