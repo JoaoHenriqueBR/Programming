@@ -6,3 +6,5 @@ pyproject.toml
 replit.nix
 /.vscode
 /.local
+/Java/Fiasco/Naruto/target/
+/Java/4º Semestre - Engenharia de Software III/exercicios/target/
