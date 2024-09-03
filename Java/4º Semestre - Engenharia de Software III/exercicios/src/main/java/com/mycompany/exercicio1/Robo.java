@@ -1,4 +1,4 @@
-package com.mycompany.exercicios;
+package com.mycompany.exercicio1;
 
 
 public class Robo {
@@ -32,6 +32,6 @@ public class Robo {
 	public void setBateria(int bateria) {
             this.bateria = bateria;
 	}
-        
+
 
 }
