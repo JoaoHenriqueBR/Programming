@@ -19,7 +19,7 @@ Sinta-se livre para ver e copiar qualquer um desses arquivos para o que quiser, 
 
 As a programming environment, I use:
 
-- Linux Mint Cinnamon 22 Wilma (Laptop) and Nobara KDE 40(PC);
+- Linux Mint Cinnamon 22.1 Xia (Laptop) and Nobara KDE 41(PC);
 - Visual Studio Code, Intellij IDEA Community (Java) and Replit for coding;
 - Vim and Kate as a text editor;
 - Brave, Firefox and Edge as browsers.
