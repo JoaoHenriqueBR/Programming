@@ -4,7 +4,7 @@
 
 Como um ambiente de programação, eu uso:
 
-- Linux Mint Cinnamon 22 Wilma (Laptop) e Nobara KDE 40(PC);
+- Linux Mint Cinnamon 22.1 Xia (Laptop) e Nobara KDE 41(PC);
 - Visual Studio Code, Intelij IDEA Community (Java) e Replit para programar;
 - Vim e Kate para edição de texto;
 - Brave, Firefox e Edge como navegadores.
