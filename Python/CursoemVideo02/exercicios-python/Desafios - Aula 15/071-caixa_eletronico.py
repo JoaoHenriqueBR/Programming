@@ -8,7 +8,7 @@ OBS: Considere que o caixa possui cédulas de R$ 50, R$ 20, R$ 10 e R$ 1.
 '''
 
 print('-'*30)
-print(f' {'CAIXA ELETRÕNICO':^30}')
+print(f' {"CAIXA ELETRÕNICO":^30}')
 print('-'*30)
 
 
