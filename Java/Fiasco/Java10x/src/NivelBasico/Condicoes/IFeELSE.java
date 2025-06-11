@@ -1,4 +1,4 @@
-package Condicoes;
+package Fiasco.Java10x.src.NivelBasico.Condicoes;
 
 public class IFeELSE {
     public static void main(String[] args) {
