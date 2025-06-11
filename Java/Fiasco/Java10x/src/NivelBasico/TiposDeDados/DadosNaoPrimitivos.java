@@ -1,4 +1,4 @@
-package TiposDeDados;
+package Fiasco.Java10x.src.NivelBasico.Condicoes.TiposDeDados;
 
 import java.util.Locale;
 

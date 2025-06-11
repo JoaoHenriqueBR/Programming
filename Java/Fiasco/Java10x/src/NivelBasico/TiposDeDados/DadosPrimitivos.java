@@ -1,4 +1,4 @@
-package TiposDeDados;
+package Fiasco.Java10x.src.NivelBasico.Condicoes.TiposDeDados;
 
 public class DadosPrimitivos {
     public static void main(String[] args) {
