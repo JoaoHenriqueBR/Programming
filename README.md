@@ -1,6 +1,6 @@
 # Estudos de Programação
 
-### Bem-vindo ao meu repositório pessoal para aprender programação
+## Bem-vindo ao meu repositório pessoal para aprender programação
 
 Como um ambiente de programação, eu uso:
 
@@ -11,17 +11,26 @@ Como um ambiente de programação, eu uso:
 
 Sinta-se livre para ver e copiar qualquer um desses arquivos para o que quiser, repositório usado apenas para praticar e estudar programação.
 
----
+## Comandos Git
 
-# Programming
+Comandos de grande importância para melhor entender e manusear um repositório no Git:
 
-### Welcome to my personal repository to learn programming
+- `git status`: Verifica alterações e pendências;
+- `git fetch`: Procura por alterações e referências em outro repositório;
+- `git init`: Inicia o repositório;
+- `git clone [URL]`: Clona o repositório;
+- `git add`: Adiciona as alterações para o Index;
+- `git commit`: Salva uma "versão" do código indexado;
+- `git pull`: Baixa as commits do repositório remoto original;
+- `git push`: Envia commits para o repositório remoto;
+- `git merge`: Baixa as alterações, mas sem aplicar os commits.
 
-As a programming environment, I use:
+### Controle de branches
 
-- Linux Mint Cinnamon 22.1 Xia (Laptop) and Nobara KDE 41(PC);
-- Visual Studio Code, Intellij IDEA Community (Java) and Replit for coding;
-- Vim and Kate as a text editor;
-- Brave, Firefox and Edge as browsers.
-
-Feel free to see and copy any of this files for any porpuse that you like, repository only used to practice and study programming.
+- `git checkout -b {nome_branch}`: Cria e troca para a nova branch criada;
+- `git switch`: Troca de branch;
+- `git branch`: Mostra todas as branchs;
+- `git branch -d {nome_branch}`: Deleta uma branch;
+- `git clone [URL] --branch {nome_branch} --single-branch`: Clona de uma branch especifica.
+- `git stash`: Arquiva um commit;
+- `git stash apply`: Aplica o commit arquivado sobre a branch.
