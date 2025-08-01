@@ -6,3 +6,16 @@ Ex:
 n = leiaint('Digite um n')
 '''
 
+def leiaint(msg):
+    n = ''
+    
+    while n.isnumeric() == False:
+        n = str(input(msg))
+        if n.isnumeric():
+            return int(n)
+        else:
+            print('\033[0;31mERRO! Digite um número inteiro válido.\033[m')
+
+
+n = leiaint('Digite um número: ')
+print(f'Você digitou {n}.')
