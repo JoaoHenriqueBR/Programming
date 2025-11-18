@@ -1,4 +1,5 @@
 from time import sleep
+from ..arquivo import lerArquivo
 
 def separador(tam = 30):
     print('-'*tam)
@@ -10,11 +11,13 @@ def titulo(txt):
     separador(30)
 
 
-def menu(opcoes = []):
+def menu(opcoes=None):
     """
         Exibe um menu interativo contendo uma lista de opções.
     """
 
+    if opcoes is None:
+        opcoes = []
     titulo('MENU PRINCIPAL')
     
     for c, item in enumerate(opcoes):
@@ -39,17 +42,20 @@ def leiaint(msg):
 
 
 
-def escolha(n):
+def escolha(n, arquivo):
     """
         Define o resultado de cada escolha.
 
         :param n: Opção escolhida.
+        :param arquivo: Arquivo usado como base.
     """
+
 
     while True:
         if n == 1:
-            titulo('Opção 1')
-            sleep(0.5)
+            # Opção de listar o conteúdo de um arquivo
+            titulo('PESSOAS CADASTRADAS')
+            lerArquivo(arquivo)
             break
         elif n == 2:
             titulo('Opção 2')
