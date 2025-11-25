@@ -1,5 +1,5 @@
 from time import sleep
-from ..arquivo import lerArquivo
+from ..arquivo import lerArquivo, escreverArquivo
 
 def separador(tam = 30):
     print('-'*tam)
@@ -58,8 +58,10 @@ def escolha(n, arquivo):
             lerArquivo(arquivo)
             break
         elif n == 2:
-            titulo('Opção 2')
-            sleep(0.5)
+            titulo('CADASTRO')
+            nome = str(input('Nome: '))
+            idade = leiaint('Idade: ')
+            escreverArquivo(arquivo, nome, idade)
             break
         elif n == 3:
             titulo('Saindo do sistema...')
