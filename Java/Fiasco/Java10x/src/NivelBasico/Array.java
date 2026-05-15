@@ -71,5 +71,37 @@ public class Array {
         System.out.println(ninja2);
         System.out.println(ninja3);
          */
+
+        /*
+        Arrays multidimensionais (Arrays 2D)
+
+        - Arrays dentro de Arrays
+        - Funciona como uma matriz, com linhas e colunas.
+        */
+
+        String[][] ninjasEAldeias = new String[3][3];
+
+//        Linha 1
+        ninjasEAldeias[0][0] = "Konaha"; // Coluna 1
+        ninjasEAldeias[0][1] = "Naruto Uzumaki"; // Coluna 2
+        ninjasEAldeias[0][2] = "Sasuke Uchiha"; // Coluna 3
+
+//        Linha 2
+        ninjasEAldeias[1][0] = "Nevoa"; // Coluna 1
+        ninjasEAldeias[1][1] = "Zabuza"; // Coluna 2
+        ninjasEAldeias[1][2] = "Haku"; // Coluna 3
+
+//        Linha 3
+        ninjasEAldeias[2][0] = "Deserto"; // Coluna 1
+        ninjasEAldeias[2][1] = "Gaara"; // Coluna 2
+        ninjasEAldeias[2][2] = "Temari"; // Coluna 3
+
+//        Iterando sobre o Array
+        for (int i = 0; i < ninjasEAldeias.length; i++) {
+            System.out.println("Aldeia: " + ninjasEAldeias[i][0]);
+            for (int j = 1; j < ninjasEAldeias[i].length; j++) {
+                System.out.println("Ninja: " + ninjasEAldeias[i][j]);
+            }
+        }
     }
 }
