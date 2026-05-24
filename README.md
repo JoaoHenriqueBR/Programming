@@ -4,10 +4,10 @@
 
 Como um ambiente de programação, eu uso:
 
-- Linux Mint Cinnamon 22.1 Xia (Laptop) e Nobara KDE 41(PC);
-- Visual Studio Code, Intelij IDEA Community (Java) e Replit para programar;
-- Vim e Kate para edição de texto;
-- Brave, Firefox e Edge como navegadores.
+- **Sistema:** CachyOS;
+- **IDEs**: Visual Studio Code, Intelij IDEA Community (Java) e Pycharm (Python);
+- **Editor de Texto:** Vim;
+- **Navegadores:** Brave e Firefox.
 
 Sinta-se livre para ver e copiar qualquer um desses arquivos para o que quiser, repositório usado apenas para praticar e estudar programação.
 
