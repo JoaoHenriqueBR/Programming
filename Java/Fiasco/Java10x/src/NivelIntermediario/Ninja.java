@@ -8,13 +8,6 @@ public class Ninja {
     // Criar um método público personalizável
 
     /*
-    * Método >VOID< não retorna valor nenhum!
-    * */
-    public void SharinganAtivado(){
-        System.out.println("Sharingan Ativado!");
-    }
-
-    /*
     * Método >STRING< vai ter que retornar um string
     * */
     public String EuSouUmNinja(){
