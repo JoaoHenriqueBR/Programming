@@ -42,6 +42,7 @@ public class Main {
         Hinata.idade = 16;
         Hinata.ByakuganAtivado();
 
+//        Criar o Boruto (Objeto 5) - Estudos de interfaces e Polimorfismo
         Boruto Boruto = new Boruto();
         Boruto.nome = "Boruto Hyuga Uzumaki";
         Boruto.aldeia = "Aldeia da Folha";
@@ -50,5 +51,18 @@ public class Main {
         Boruto.ModoSabioAtivado();
         Boruto.AtivarOKarma();
         Boruto.AtivarJougan();
+
+        // Estudo de Construtores
+        Hokages Hashirama = new Hokages();
+        Hashirama.idade = 45;
+
+        Hokages Tobirama = new Hokages("Tobirama Senju");
+        System.out.println(Tobirama.nome);
+
+        Hokages Hiruzen = new Hokages(40);
+        System.out.println(Hiruzen.idade);
+
+        Hokages Hinato = new Hokages("Minato Namikaze", 32, false);
+        System.out.println("Nome: " + Hinato.nome + " Idade: " + Hinato.idade + " Vivo: " + Hinato.vivoOuNao);
     }
 }
