@@ -9,6 +9,7 @@ public class Main {
         Naruto.idade = 17;
         Naruto.aldeia = "Aldeia da Folha";
         Naruto.ModoSabioAtivado();
+        Naruto.habilidadeEspecial();
 
 //        Criar ninja Sasuke (Objeto 2)
         Uchiha Sasuke = new Uchiha();
@@ -16,6 +17,7 @@ public class Main {
         Sasuke.nome = "Sasuke Uchiha";
         Sasuke.idade = 18;
         Sasuke.aldeia = "Aldeia da Folha";
+        Sasuke.habilidadeEspecial();
 
 //        Aplicando métodos ao meu objeto
         Sasuke.SharinganAtivado(); // Método tipo void

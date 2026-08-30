@@ -20,4 +20,9 @@ public class Ninja {
     public int anosParaSeTornarHokage(int idadeMinimaParaSerHokage) {
         return idadeMinimaParaSerHokage - idade;
     }
+
+    // Métodos Geral! Todos os ninjas vão ter
+    public void habilidadeEspecial(){
+        System.out.println("Meu nome é " + nome + " e esse é meu ataque especial");
+    }
 }
